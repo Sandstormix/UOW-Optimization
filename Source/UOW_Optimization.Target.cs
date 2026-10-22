@@ -8,7 +8,7 @@ public class UOW_OptimizationTarget : TargetRules
 	public UOW_OptimizationTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
+		DefaultBuildSettings = BuildSettingsVersion.V6;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
 		ExtraModuleNames.Add("UOW_Optimization");
 	}
